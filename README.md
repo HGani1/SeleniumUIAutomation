@@ -55,7 +55,7 @@ The Three-Pronged Approach is generally accepted as the best way to implement BD
     - Discussions with BA/PO, QA, Dev BEFORE any software development about the feature to be developed. Missing out a key role in these discussions i.e. BA, QA increases the risk of miscommunication.
 
 2) Documenation
-    - Scenarios are captured and documented (in this case we use Jira with the BehavePro plugin tool, meaning that Jira becomes the single source of truth for all requirements. Avoids cowboy requirements and YOLO merges as everything must come via collaboration first)
+    - Scenarios are captured and documented (in this case we use Jira. Powered with plugins such as BehavePro we get even more BDD integration meaning that Jira becomes the single source of truth for all requirements. Avoids cowboy requirements and YOLO merges as everything must come via collaboration first)
 
 3) Automation
     - Following TDD practices, export the scenarios to your test framework and develop the glue and source code in parallel to satisfy the acceptance tests until they pass. Refactor and repeat.
