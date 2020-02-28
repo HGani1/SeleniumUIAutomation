@@ -87,6 +87,8 @@ Add the following settings to your workspace:
 
 This will allow you to click to the relevant step definition directly from the feature file
 
+Use the include `dotenv` package to create a `.env` file and store all sensitive data such as environemnt variables and API keys. This is by default gitignored so there is no risk of commiting this file to the remote
+
 Be smart, be efficient - where possible, re-use existing steps to avoid uncecessary / duplicate tests. The common steps file is your friend!
 
 Add specific scenario tags for debugging purposes e.g. @scn1, @scn2 etc. Cucumber allows you to run multiple tags using the operators "and", "or" i.e. --tags="@VSTD-100 and @scn1" will run the first scenario of the feature VSTD-100 only (make sure it is in double quotes).
